@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "nova",
+  "version": "${version}",
+  "name": "Nova Client",
+  "description": "Utility client with modules and ClickGUI",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.nova.Nova"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
